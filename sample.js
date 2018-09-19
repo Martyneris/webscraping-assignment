@@ -150,38 +150,3 @@ casper.then(function(){
 })
 
 casper.run();
-
-
-
-// casper.thenEvaluate(function(arrAirport) {
-//     document.querySelector('input[name="ctl00$FullRegion$MainRegion$ContentRegion$ContentFullRegion$ContentLeftRegion$CEPGroup1$CEPActive$cepNDPRevBookingArea$predictiveSearch$txtTo"]').setAttribute('value', arrAirport);
-// }, 'LHR');
-
-// casper.thenEvaluate(function() {
-//     document.querySelector('form[name="aspnetForm"]').submit();
-// });
-
-// casper.then(function() {
-//     this.sendKeys('#ctl00_FullRegion_MainRegion_ContentRegion_ContentFullRegion_ContentLeftRegion_CEPGroup1_CEPActive_cepNDPRevBookingArea_predictiveSearch_txtFrom', 'ARN');
-//     this.sendKeys('#ctl00_FullRegion_MainRegion_ContentRegion_ContentFullRegion_ContentLeftRegion_CEPGroup1_CEPActive_cepNDPRevBookingArea_predictiveSearch_txtTo', "LHR");
-// });
-
-// casper.then(function() {
-//     this.fill('#ctl00_FullRegion_MainRegion_ContentRegion_ContentFullRegion_ContentLeftRegion_CEPGroup1_CEPActive_cepNDPRevBookingArea_predictiveSearch_txtFrom', {
-//         'ctl00$FullRegion$MainRegion$ContentRegion$ContentFullRegion$ContentLeftRegion$CEPGroup1$CEPActive$cepNDPRevBookingArea$predictiveSearch$txtFrom': 'ARN'
-//     }, true);
-// });
-
-// casper.then(function() {
-//     this.fill('#ctl00_FullRegion_MainRegion_ContentRegion_ContentFullRegion_ContentLeftRegion_CEPGroup1_CEPActive_cepNDPRevBookingArea_predictiveSearch_txtTo', {
-//         'ctl00$FullRegion$MainRegion$ContentRegion$ContentFullRegion$ContentLeftRegion$CEPGroup1$CEPActive$cepNDPRevBookingArea$predictiveSearch$txtTo': 'LHR'
-//     }, true);
-// });
-
-
-// casper.then(function() {
-//     this.fillSelectors('.#predictiveSearchContainer div.cepAreaFullBody table', {
-//         'input[name="ctl00$FullRegion$MainRegion$ContentRegion$ContentFullRegion$ContentLeftRegion$CEPGroup1$CEPActive$cepNDPRevBookingArea$predictiveSearch$txtFrom"]': 'ARN',
-//         'input[name="ctl00$FullRegion$MainRegion$ContentRegion$ContentFullRegion$ContentLeftRegion$CEPGroup1$CEPActive$cepNDPRevBookingArea$predictiveSearch$txtTo"]':    'LHR',
-//     }, true);
-// })
